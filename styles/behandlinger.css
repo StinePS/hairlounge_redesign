@@ -5,14 +5,90 @@ background-image: url(/img/behandlinger.jpg);
     width: 100%;
 }
 
-#section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
+h1 {
+    font-family: Playfair Display;
+    text-align: left;
+    font-size: 3rem;
 }
+
+h2 {
+    font-family: Playfair Display;
+    text-transform: inherit;
+    font-size: 2rem;
+}
+
+
 
 
 table {
     width: 100%;
     text-align: left;
+    margin-bottom: 30px;
+
+}
+.col tr.border_bottom td, th {
+     border-bottom: 1px solid #cecece;
+}
+td {
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 10px 0 10px 0;
+     font-family: roboto;
+
+}
+
+th {
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+        width: 80%;
+}
+.pris {
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: 0;
+}
+
+#section_4 {
+    text-align: center;
+    padding:20px 0 20px 0;
+    background-color: #d0d0c0;
+}
+#section_4 button {
+    border: none;
+    background-color: #3f4a29;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 1px 1px 3px #a0a0a0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 5px 0 10px 0;
+    font-family: roboto;
+
+}
+#image_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#section_4 p {
+text-align: center;
+    font-family: roboto;
+    margin: 2vw;
+}
+
+@media (min-width: 768px) {
+#section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+    #section_4 button:hover {
+opacity: 0.8;
+    }
+
 }
