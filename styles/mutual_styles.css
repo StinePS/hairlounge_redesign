@@ -3,6 +3,7 @@ html {
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	background-color: #f7f7f7;
 }
 
 img {
@@ -39,7 +40,13 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	text-transform: uppercase;
+}
 
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 p {
@@ -174,6 +181,7 @@ a:hover.online_button {
 #footer h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	font-size: 1rem;
 }
 
 #footer a {
@@ -186,6 +194,7 @@ a:hover.online_button {
 
 #footer p {
 	color: #fff;
+	font-size: 0.8rem;
 }
 
 
@@ -197,12 +206,13 @@ a:hover.online_button {
 ul {
 	list-style: none;
 	padding-left: 0;
+	font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 768px) {
 	.footer_grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		column-gap: 10px;
+		column-gap: 2rem;
 	}
 }
