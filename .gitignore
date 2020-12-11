@@ -5,4 +5,4 @@
 /node_modules/
 @@ -0,0 +1 @@
 +*.DS_Store 
-git rm --cached <file>
+git rm --cached <.DS_store>
