@@ -8,8 +8,9 @@ img {
 }
 
 body {
-	background-color: #fff;
+	background-color: white;
 	margin: 0;
+    position: relative;
 }
 
 nav {
@@ -71,14 +72,17 @@ a:active {
 /* ELEMENTER */
 /* Header */
 header {
-	position: relative;
+	position: absolute;
 	z-index: 1;
-	background-color: #fff 0.7;
+	background-color: white;
+    opacity: 0.8;
 	color: #697654;
+    width: 100%;
+    box-shadow: 5px 0px 10px grey;
 }
 
 #logo {
-	width: 7rem;
+	width: 6rem;
 }
 
 #burgermenu {
