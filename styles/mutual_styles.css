@@ -1,9 +1,6 @@
 /* GENERELT */
 html {
 	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	background-color: #f7f7f7;
 }
 
 img {
@@ -13,7 +10,7 @@ img {
 body {
 	background-color: white;
 	margin: 0;
-	position: relative;
+    position: relative;
 }
 
 nav {
@@ -32,54 +29,43 @@ nav {
 
 /* TEKST OG LINKS */
 h1 {
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-}
-
-h2 {
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
 	text-align: center;
 }
 
+h2 {
+	text-transform: uppercase;
+}
+
+h3 {}
+
 p {
-	color: black;
+	text-align: left;
 }
 
 /* links */
 a {
 	text-decoration: none;
+	margin-left:
 }
 
 /* unvisited link */
 a:link {
-	color: #000;
+	color: #697654;
 }
 
 /* visited link */
 a:visited {
-	color: #000;
+	color: #697654;
 }
 
 /* mouse-over link */
 a:hover {
-	color: #d4dbce;
+	color: #BA9882;
 }
 
 /* selected link */
 a:active {
-	color: #000;
-}
-
-.hide_on_mobile {
-	text-transform: uppercase;
+	color: #697654;
 }
 
 
@@ -89,9 +75,10 @@ header {
 	position: absolute;
 	z-index: 1;
 	background-color: white;
-	opacity: 0.8;
-	width: 100%;
-	box-shadow: 5px 0px 10px grey;
+    opacity: 0.8;
+	color: #697654;
+    width: 100%;
+    box-shadow: 5px 0px 10px grey;
 }
 
 #logo {
@@ -108,25 +95,20 @@ header {
 	height: 3rem;
 }
 
-a.online_button {
+.online_button {
 	color: #fff;
 	font-size: 1rem;
 	border-radius: 1.5rem;
-	padding: 0.5rem;
 	background-color: #697654;
 	border: none;
 	cursor: pointer;
-}
-
-a:hover.online_button {
-	color: #d4dbce;
 }
 
 
 /* Navigation mobil og Ipad højformat */
 @media (max-width: 767px) {
 	.hide_on_mobile {
-		display: none;
+		display: none
 	}
 
 	.on {
@@ -144,11 +126,6 @@ a:hover.online_button {
 	nav a {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
-	}
-
-	a.online_button {
-		color: #000;
-		background-color: #fff;
 	}
 }
 
@@ -178,41 +155,19 @@ a:hover.online_button {
 	color: #fff;
 }
 
-#footer h2 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 1rem;
-}
-
-#footer a {
-	color: #fff;
-}
-
-#footer a:hover {
-	color: #d4dbce;
-}
-
-#footer p {
-	color: #fff;
-	font-size: 0.8rem;
-}
-
-
 .copyright {
 	text-align: center;
-	color: #fff;
 }
 
 ul {
 	list-style: none;
 	padding-left: 0;
-	font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 768px) {
 	.footer_grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		column-gap: 2rem;
+		column-gap: 10px;
 	}
 }
