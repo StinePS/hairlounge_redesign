@@ -1,6 +1,9 @@
 /* GENERELT */
 html {
 	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	background-color: #f7f7f7;
 }
 
 img {
@@ -8,9 +11,8 @@ img {
 }
 
 body {
-	background-color: white;
 	margin: 0;
-    position: relative;
+	position: relative;
 }
 
 nav {
@@ -33,10 +35,17 @@ h1 {
 }
 
 h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
-h3 {}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
 
 p {
 	text-align: left;
@@ -45,7 +54,6 @@ p {
 /* links */
 a {
 	text-decoration: none;
-	margin-left:
 }
 
 /* unvisited link */
@@ -75,10 +83,10 @@ header {
 	position: absolute;
 	z-index: 1;
 	background-color: white;
-    opacity: 0.8;
+	opacity: 0.8;
 	color: #697654;
-    width: 100%;
-    box-shadow: 5px 0px 10px grey;
+	width: 100%;
+	box-shadow: 5px 0px 10px grey;
 }
 
 #logo {
@@ -155,19 +163,40 @@ header {
 	color: #fff;
 }
 
+#footer h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer a:hover {
+	color: #d4dbce;
+}
+
+#footer p {
+	color: #fff;
+	font-size: 0.8rem;
+}
+
 .copyright {
 	text-align: center;
+	color: #fff;
 }
 
 ul {
 	list-style: none;
 	padding-left: 0;
+	font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 768px) {
 	.footer_grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		column-gap: 10px;
+		column-gap: 2rem;
 	}
 }
