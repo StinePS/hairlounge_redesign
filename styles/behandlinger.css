@@ -4,3 +4,15 @@ background-image: url(/img/behandlinger.jpg);
     background-repeat: no-repeat;
     width: 100%;
 }
+
+#section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+
+table {
+    width: 100%;
+    text-align: left;
+}
