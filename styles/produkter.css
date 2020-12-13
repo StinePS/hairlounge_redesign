@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+
+#first_section {
+    background-image: url(produkter.css);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#first_section p {
+    text-align: center;
+}
