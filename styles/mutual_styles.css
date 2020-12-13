@@ -91,6 +91,8 @@ header {
 	color: #697654;
 	width: 100%;
 	box-shadow: 5px 0px 10px grey;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
 #logo {

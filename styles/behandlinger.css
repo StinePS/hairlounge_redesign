@@ -81,17 +81,50 @@ text-align: center;
 }
 /*---- footer ----*/
 
+footer{
+    padding: 10px 0 20px 0;
+    text-align: left;
+}
+
 footer td {
     font-weight: 300;
 }
 
-footer table {
-    width: 100%;
-    text-align: center;
+footer h3 {
+    text-align: left;
+    letter-spacing: 0.07rem;
+    line-height: 3rem
 }
+
+
 
 .footer_grid {
     border-bottom: 1px solid #adacac;
+}
+
+footer li {
+    line-height: 1.4rem;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    max-width: 5rem;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.icon img {
+   width: 100%;
+}
+
+.icon img:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    margin-top: 15px;
 }
 
 @media (min-width: 768px) {
