@@ -31,7 +31,7 @@ table {
 .col tr.border_bottom td, th {
      border-bottom: 1px solid #cecece;
 }
-td {
+.col td {
     font-weight: 400;
     font-size: 0.9rem;
     padding: 10px 0 10px 0;
@@ -39,7 +39,7 @@ td {
 
 }
 
-th {
+.col th {
     font-family: Playfair Display;
     font-weight: 600;
     font-size: 1.5rem;
@@ -89,9 +89,13 @@ footer{
     text-align: left;
 }
 
+
+
 footer td {
     font-weight: 300;
         letter-spacing: 0.03rem;
+    padding-bottom: 0.7rem;
+    font-size: 0.9rem;
 }
 
 footer h3 {
