@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #section_1 {
 background-image: url(/img/behandlinger.jpg);
     background-size: contain;
@@ -16,10 +15,6 @@ h2 {
     font-family: Playfair Display;
     text-transform: inherit;
     font-size: 2rem;
-}
-
-p {
-    font-weight: 400;
 }
 
 
@@ -97,5 +92,3 @@ opacity: 0.8;
     }
 
 }
-=======
->>>>>>> origin/master
