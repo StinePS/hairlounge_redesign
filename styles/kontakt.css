@@ -1,0 +1,68 @@
+img {
+    width: 100%;
+    object-fit: contain;
+}
+input {
+    display: block;
+    margin: 2vw;
+    padding: 1vw 8vw;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+}
+textarea {
+    display: block;
+    margin: 2vw;
+    padding: 0.9vw 7.3vw;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+}
+button {
+    display: block;
+    background-color: #687752;
+    color: white;
+    margin: 2vw;
+    padding: 1vw 5vw;
+    border: none;
+    border-radius: 13px;
+}
+
+/*til google maps kortet*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 300px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 300px;
+    width: 300px;
+}
+@media only screen and (min-width: 900px) {
+    #section_2 .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 300px;
+    }
+    h2 {
+        margin: 2vw;
+        margin-left: 8vw;
+    }
+    h3 {
+        margin: 2vw;
+    }
+    p,
+    ul {
+        margin-left: 8vw;
+    }
+    .text2 p {
+        color: #687752;
+    }
+    #section_3 .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 300px;
+    }
+}
