@@ -79,6 +79,20 @@ text-align: center;
     font-family: roboto;
     margin: 2vw;
 }
+/*---- footer ----*/
+
+footer td {
+    font-weight: 300;
+}
+
+footer table {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_grid {
+    border-bottom: 1px solid #adacac;
+}
 
 @media (min-width: 768px) {
 #section_wrapper {

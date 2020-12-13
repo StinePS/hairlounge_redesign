@@ -1,4 +1,9 @@
 /* GENERELT */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
@@ -11,6 +16,7 @@ img {
 }
 
 body {
+	background-color: #fff;
 	margin: 0;
 	position: relative;
 }
@@ -40,12 +46,7 @@ h2 {
 	text-transform: uppercase;
 }
 
-h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
-	text-align: center;
-}
+h3 {}
 
 p {
 	text-align: left;
@@ -54,21 +55,22 @@ p {
 /* links */
 a {
 	text-decoration: none;
+	margin-left:
 }
 
 /* unvisited link */
 a:link {
-	color: #000;
+	color: #697654;
 }
 
 /* visited link */
 a:visited {
-	color: #000;
+	color: #697654;
 }
 
 /* mouse-over link */
 a:hover {
-	color: #697654;
+	color: #BA9882;
 }
 
 /* selected link */
@@ -81,8 +83,10 @@ a:active {
 /* Header */
 header {
 	position: absolute;
+    top: 1;
 	z-index: 1;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: white;
+    opacity: 0.8;
 	color: #697654;
 	width: 100%;
 	box-shadow: 5px 0px 10px grey;
@@ -90,6 +94,7 @@ header {
 
 #logo {
 	width: 6rem;
+	width: 7rem;
 }
 
 #burgermenu {
@@ -102,7 +107,7 @@ header {
 	height: 3rem;
 }
 
-a.online_button {
+.online_button {
 	color: #fff;
 	font-size: 1rem;
 	border-radius: 1.5rem;
@@ -133,7 +138,7 @@ a:hover.online_button {
 		top: 100%;
 		left: 0;
 		right: 0;
-		background: #f7f7f7;
+		background: #fff;
 		display: flex;
 		flex-direction: column;
 		padding: 1rem;
@@ -206,6 +211,6 @@ ul {
 	.footer_grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		column-gap: 2rem;
+		column-gap: 10px;
 	}
 }
