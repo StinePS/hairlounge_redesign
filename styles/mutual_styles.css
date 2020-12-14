@@ -5,9 +5,9 @@
 
 /* GENERELT */
 html {
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-size: 0.9rem;
+	font-family:'Spartan', sans-serif;
+	font-weight: 200;
 	background-color: #f7f7f7;
 }
 
@@ -37,24 +37,35 @@ nav {
 
 /* TEKST OG LINKS */
 h1 {
-	text-align: center;
+	font-family:'Spartan', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem 0 4rem 0;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 h2 {
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-	font-size: 2rem;
+	font-family: 'Spartan', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
 	font-weight: 400;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 p {
+    font-family: 'Spartan', sans-serif;
 	text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.02rem;
 }
 
 /* links */
@@ -92,8 +103,8 @@ header {
 	color: #697654;
 	width: 100%;
 	box-shadow: 5px 0px 10px grey;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-family:'Spartan', sans-serif;
+	font-weight: 300;
 }
 
 #logo {
@@ -112,13 +123,14 @@ header {
 
 a.online_button {
 	color: #fff;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	border-radius: 1.5rem;
 	background-color: #697654;
 	border: none;
 	cursor: pointer;
 	padding: 1rem;
 }
+
 
 a:hover.online_button {
 	color: #d4dbce;
@@ -170,7 +182,7 @@ a:hover.online_button {
 	}
 
 	nav a {
-		margin-left: 1rem;
+		margin-left: 2rem;
 	}
 }
 
