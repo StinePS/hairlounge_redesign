@@ -201,6 +201,8 @@ a:hover.online_button {
 
 /* Footer */
 
+
+
 #footer {
 	padding: 5px 0 20px 0;
 	text-align: left;
@@ -221,11 +223,11 @@ a:hover.online_button {
 	font-size: 0.8rem;
 }
 
-#footer h2 {
-	text-align: left;
-	letter-spacing: 0.07rem;
-	line-height: 3rem;
-	font-size: 1rem;
+footer h3 {
+    text-align: left;
+    letter-spacing: 0.07rem;
+    line-height: 3rem;
+    font-size: 1rem;
 }
 
 #footer li {
