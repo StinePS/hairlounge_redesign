@@ -1,20 +1,30 @@
 
+header{
+    position: inherit;
+}
+
+
 #first_section{
     background-color: antiquewhite;
 
 }
 
-.container{
+
+.section_wrapper1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
 }
 
-
-
-#third_section{
+.section_wrapper2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 50px;
 }
+.section_wrapper3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
 
