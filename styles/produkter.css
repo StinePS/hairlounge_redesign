@@ -36,6 +36,12 @@
     background-color: #d0d0c0;
 }
 
+.text {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #fourth_section {
     width: auto;
     display: flex;
@@ -45,6 +51,10 @@
 #image_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    display: block;
 }
 
 
