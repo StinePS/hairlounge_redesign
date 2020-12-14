@@ -1,3 +1,24 @@
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem 0 4rem 0;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
 #first_section {
     background-image: url(produkter.css);
     background-size: contain;
@@ -65,8 +86,8 @@ img {
 
 #fifth_section p {
     text-align: center;
-    font-family: roboto;
-    font-weight: 400;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
     margin: 2vw;
 }
 
@@ -75,13 +96,13 @@ img {
     background-color: #3f4a29;
     border-radius: 30px;
     padding: 15px 30px 15px 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     box-shadow: 1px 1px 3px #a0a0a0;
     letter-spacing: 0.1rem;
-    text-transform: uppercase;
     margin: 5px 0 10px 0;
-    font-family: roboto;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 100;
 }
 
 
@@ -150,21 +171,4 @@ footer li {
         opacity: 0.8;
     }
 
-}
-
-
-
-
-h1 {
-    font-family: Playfair Display;
-    text-align: left;
-    font-size: 3rem;
-    margin: 2rem 0 3rem 0;
-}
-
-h2 {
-    font-family: Playfair Display;
-    text-transform: inherit;
-    font-size: 2rem;
-    margin-bottom: 2rem;
 }
