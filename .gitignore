@@ -6,3 +6,5 @@
 
 # macOS Files
 .DS_Store
+/js/mutual_script.js
+/js/login.js

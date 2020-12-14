@@ -22,7 +22,7 @@ h2 {
 
 
 
-table {
+.col table {
     width: 100%;
     text-align: left;
     margin-bottom: 30px;
@@ -31,7 +31,7 @@ table {
 .col tr.border_bottom td, th {
      border-bottom: 1px solid #cecece;
 }
-td {
+.col td {
     font-weight: 400;
     font-size: 0.9rem;
     padding: 10px 0 10px 0;
@@ -39,14 +39,14 @@ td {
 
 }
 
-th {
+.col th {
     font-family: Playfair Display;
     font-weight: 600;
     font-size: 1.5rem;
     padding-bottom: 10px;
         width: 80%;
 }
-.pris {
+.col .pris {
     font-size: 1rem;
     font-weight: 100;
     padding-bottom: 0;
@@ -89,9 +89,16 @@ footer{
     text-align: left;
 }
 
+footer table {
+    width: 100%;
+    text-align: left;
+}
+
 footer td {
     font-weight: 300;
         letter-spacing: 0.03rem;
+    padding-bottom: 0.7rem;
+    font-size: 0.9rem;
 }
 
 footer h3 {
@@ -102,9 +109,6 @@ footer h3 {
 
 
 
-.footer_grid {
-    border-bottom: 1px solid #adacac;
-}
 
 footer li {
     line-height: 1.4rem;
@@ -128,7 +132,8 @@ footer li {
 }
 
 .copyright {
-    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #adacac;
 }
 
 @media (min-width: 768px) {
