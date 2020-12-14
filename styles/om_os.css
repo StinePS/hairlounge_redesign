@@ -1,0 +1,20 @@
+
+#first_section{
+    background-color: antiquewhite;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+
+
+#third_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+
