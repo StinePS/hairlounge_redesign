@@ -1,0 +1,98 @@
+img {
+    width: 100%;
+    object-fit: contain;
+}
+input {
+    display: block;
+    margin: 2vw;
+    padding: 1.2vw 4vw;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+textarea {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 2vw;
+    padding: 1vw 4.2vw;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+button {
+    display: block;
+    background-color: #687752;
+    color: white;
+    margin: 2vw;
+    font-size: 0.9rem;
+    padding: 1vw 3vw;
+    border: none;
+    border-radius: 13px;
+}
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-transform: none;
+    text-align: left;
+    margin: 2vw;
+}
+.text2 p {
+    color: #687752;
+}
+#section_2 ul,
+#section_3 ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1rem;
+}
+
+/*til google maps kortet*/
+
+.mapouter {
+    margin: 2vw;
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 300px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 300px;
+    width: 300px;
+}
+
+/*ændre skærmstørrelse */
+
+@media only screen and (min-width: 900px) {
+    #section_2 .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 300px;
+    }
+    .linje2 {
+        border-bottom: 1px solid #cecece;
+    }
+    .linje {
+        border-bottom: 1px solid #cecece;
+    }
+    h2 {
+        margin: 2vw;
+        margin-left: 8vw;
+    }
+    p,
+    ul {
+        margin-left: 8vw;
+    }
+    .text2 p {
+        color: #687752;
+    }
+    #section_3 .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 300px;
+    }
+}

@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+
+#first_section {
+    background-image: url(produkter.css);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#first_section p {
+    text-align: center;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+#third_section {
+    width: auto;
+    border: 9rem solid #d9e5d9;
+}
+
+#fourth_section {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.book_button {
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    background-color: #454545;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 3px 5px 3px -3px rgba(0, 0, 0, 0.35);
+    */
+}
+
+#fifth_section {
+    text-align: center;
+}

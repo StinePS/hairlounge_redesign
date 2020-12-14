@@ -1,0 +1,151 @@
+#section_1 {
+background-image: url(/img/behandlinger.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h1 {
+    font-family: Playfair Display;
+    text-align: left;
+    font-size: 3rem;
+    margin: 2rem 0 3rem 0;
+}
+
+h2 {
+    font-family: Playfair Display;
+    text-transform: inherit;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.col table {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+.col tr.border_bottom td, th {
+     border-bottom: 1px solid #cecece;
+}
+.col td {
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 10px 0 10px 0;
+     font-family: roboto;
+
+}
+
+.col th {
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+        width: 80%;
+}
+.col .pris {
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: 0;
+}
+
+#section_4 {
+    text-align: center;
+    padding:20px 0 20px 0;
+    background-color: #d0d0c0;
+}
+#section_4 input {
+    border: none;
+    background-color: #3f4a29;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 1px 1px 3px #a0a0a0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 5px 0 10px 0;
+    font-family: roboto;
+
+}
+#image_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#section_4 p {
+text-align: center;
+    font-family: roboto;
+    font-weight: 400;
+    margin: 2vw;
+}
+/*---- footer ----*/
+
+footer{
+    padding: 5px 0 20px 0;
+    text-align: left;
+}
+
+footer table {
+    width: 100%;
+    text-align: left;
+}
+
+footer td {
+    font-weight: 300;
+        letter-spacing: 0.03rem;
+    padding-bottom: 0.7rem;
+    font-size: 0.85rem;
+}
+
+footer h3 {
+    text-align: left;
+    letter-spacing: 0.07rem;
+    line-height: 3rem;
+    font-size: 1rem;
+}
+
+
+
+
+footer li {
+    line-height: 1.4rem;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    max-width: 5rem;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.icon img {
+   width: 100%;
+}
+
+.icon img:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    padding-top: 15px;
+    border-top: 1px solid #adacac;
+}
+
+@media (min-width: 768px) {
+#section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+    #section_4 input:hover {
+opacity: 0.8;
+    }
+
+}
