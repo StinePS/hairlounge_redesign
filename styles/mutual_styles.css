@@ -71,6 +71,7 @@ p {
 /* links */
 a {
 	text-decoration: none;
+    font-family:'Spartan', sans-serif;
 }
 
 /* unvisited link */
