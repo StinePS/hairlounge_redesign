@@ -5,6 +5,6 @@
 /node_modules/
 
 # macOS Files
-.DS_Store
++*.DS_Store
 /js/mutual_script.js
 /js/login.js
