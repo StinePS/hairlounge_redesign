@@ -195,6 +195,7 @@ main img {
 	text-align: center;
     background-color: #FCF3E9;
     margin: 0;
+    box-shadow: 0px 5px 10px #27272714;
 }
 
 #fourth_section .container
