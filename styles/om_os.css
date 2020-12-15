@@ -1,5 +1,4 @@
 
-
 body {
 	font-family: 'Spartan', sans-serif;
     background-color: #d0d0c0;
@@ -118,11 +117,40 @@ p {
 
 
 #third_section p {
-	padding-top: 2.5vw;
 	text-align: center;
-	padding-left: 20vw;
-	padding-right: 20vw;
+
 }
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.opacity {
+    opacity: 0.3;
+}
+
+#knap_left {
+   width: 30px;
+    margin: 0 auto;
+}
+
+#knap_right {
+    width: 30px;
+    margin: 0 auto;
+}
+
+.slide {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+strong {
+    line-height: 4rem;
+}
+
 
 /*
 #third_section .section_wrapper {
