@@ -10,6 +10,11 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	margin: 3rem 0;
+	padding-top: 4rem;
+}
+
 #section2 {
 	background-color: #faebd7;
 }
