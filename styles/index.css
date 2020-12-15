@@ -50,27 +50,41 @@ h2 {
 
 #section2 h2 {
 	text-transform: none;
-	font-weight: 500;
 }
 
 #section2 h3 {
 	text-transform: none;
 }
 
+
+
 #logo_left {
 	height: 2rem;
+    height: auto;
+    overflow: auto;
+    width: 50%;
+    margin: 0 auto
 }
 
 #logo_right {
-	height: 2rem;
+	height: auto;
+    width:55%;
+    margin: 0 auto;
+}
+
+#logo_kevin {
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
 	.grid-2 {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		column-gap: 2rem;
+		column-gap: 0;
 	}
+    #section3 h2 {
+    padding: 3rem 0 1rem 0;
+}
 
 	.grid-3 {
 		display: grid;
