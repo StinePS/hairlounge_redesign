@@ -16,6 +16,11 @@ img {
 	height: auto;
 }
 
+video {
+	width: 100%;
+	height: auto;
+}
+
 body {
 	margin: 0;
 	position: relative;
@@ -137,7 +142,7 @@ header {
 a.online_button {
 	color: #fff;
 	font-size: 0.9rem;
-	border-radius: 1.5rem;
+	border-radius: 1rem;
 	background-color: #697654;
 	border: none;
 	cursor: pointer;
