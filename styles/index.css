@@ -35,6 +35,10 @@ a:hover.knap {
 	text-align: center;
 }
 
+h1 {
+	margin: 3rem 0;
+}
+
 h2 {
 	text-align: center;
 	padding: 3rem 0;
@@ -53,8 +57,12 @@ h2 {
 	text-transform: none;
 }
 
-#section3 h2 {
-	text-transform: none;
+#logo_left {
+	height: 2rem;
+}
+
+#logo_right {
+	height: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
