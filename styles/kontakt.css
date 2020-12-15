@@ -1,17 +1,34 @@
+.container {
+        padding: 3rem 1rem 2rem 1rem;
+}
 img {
     width: 100%;
     object-fit: contain;
 }
 #section_3 {
-    background-color: antiquewhite;
+    background-color: white;
+    border-bottom: 20px solid #FCF3E9;
 }
+
+#section_2{
+    background-color: #FCF3E9;
+}
+
+#section_2 h3 {
+    margin-bottom: 1rem;
+}
+
+#section_1 img {
+    display: block;
+}
+
 h1 {
     text-align: left;
     margin-top: 1vw;
     margin-bottom: 0.5vw;
 }
-h3,
-h2 {
+main h3,
+main h2 {
     margin-bottom: 2.3vw;
     margin-top: 1vw;
 }
@@ -25,10 +42,11 @@ input {
     margin-bottom: 1rem;
     padding: 1rem;
     width: 75%;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 13px;
     font-size: 0.9rem;
     text-align: left;
+    box-shadow:1px 1px 4px #adacac38;
 }
 textarea {
     display: block;
@@ -37,10 +55,11 @@ textarea {
     margin-bottom: 1rem;
     padding: 1rem;
     width: 75%;
-    border: 1px solid #cecece;
+    border: none;
     border-radius: 13px;
     font-size: 0.9rem;
     text-align: left;
+    box-shadow:1px 1px 2px #adacac38;
 }
 button {
     display: block;
@@ -87,12 +106,17 @@ p {
     text-align: right;
     height: 300px;
     width: 300px;
+background-color: #6B7754;
 }
 .gmap_canvas {
+    position: relative;
     overflow: hidden;
     background: none!important;
     height: 300px;
     width: 300px;
+    bottom: 1.2rem;
+    right: 1.5rem;
+    box-shadow:1px 1px 10px #adacacb8;
 }
 
 /*footer*/
@@ -144,7 +168,7 @@ footer li {
 @media only screen and (min-width: 900px) {
     #section_2 .container {
         display: grid;
-        grid-template-columns: 1fr 0.7fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 150px;
     }
     .mapouter {

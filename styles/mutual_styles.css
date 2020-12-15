@@ -216,6 +216,10 @@ a:hover.online_button {
 	color: #fff;
 }
 
+#footer .container {
+    padding: 2rem 0 2rem 0;
+}
+
 #footer table {
 	width: 100%;
 	text-align: left;

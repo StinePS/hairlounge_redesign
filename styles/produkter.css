@@ -40,12 +40,14 @@ h2 {
 #third_section {
 	background-color: #d0d0c0;
 	padding: 5rem 0 5rem 0;
+    border-bottom: 20px solid #FCF3E9;
 }
 
 .section_wrapper {
 	margin-bottom: 40px;
 	background-color: white;
 	box-shadow: 0px 5px 10px #27272714;
+    border-bottom: 20px solid #FCF3E9;
 }
 
 
@@ -65,6 +67,7 @@ h2 {
 	width: auto;
 	display: flex;
 	margin: auto;
+
 }
 
 #image_container {
@@ -79,8 +82,11 @@ main img {
 
 #fifth_section {
 	text-align: center;
-	padding: 20px 0 20px 0;
+    background-color: #FCF3E9;
 }
+
+#fifth_section .container
+{padding: 3rem 1rem 2rem 1rem;}
 
 #fifth_section p {
 	text-align: center;
