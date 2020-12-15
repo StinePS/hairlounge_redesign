@@ -63,8 +63,10 @@ h2 {
 }
 
 #section2 .column img {
-	border-bottom: 20px solid #FCF3E9;
+
     margin-bottom: 1rem;
+    box-shadow: 2px 1px 10px #63636336;
+    border: 0.4rem solid #FCF3E9;
 }
 
 
@@ -116,7 +118,7 @@ h2 {
 	.grid-3 {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		column-gap: 2rem;
+		column-gap: 2.5rem;
 	}
 
 .video_knapper_position {
