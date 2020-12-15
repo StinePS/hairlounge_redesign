@@ -11,8 +11,10 @@ h2 {
 }
 input {
     display: block;
-    margin-bottom: 1vw;
-    padding: 1vw 4vw;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding: 1rem 3rem;
     border: 1px solid #ccc;
     border-radius: 13px;
     font-size: 0.9rem;
@@ -21,9 +23,9 @@ input {
 textarea {
     display: block;
     font-family: 'Spartan', sans-serif;
-    font-weight: 300;
-    margin-bottom: 1vw;
-    padding: 1vw 3vw;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding: 1rem 3rem;
     border: 1px solid #cecece;
     border-radius: 13px;
     font-size: 0.9rem;
