@@ -29,22 +29,25 @@ margin: 10px;
 }
 
 a.knap {
-	color: #697654;
+
+    color:#3f4a29;
 	font-size: 1.2rem;
 	border-radius: 1.5rem;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color:rgb(253 245 235 / 82%);
 	border: none;
 	cursor: pointer;
 	padding: 1vw 3vw;
+    box-shadow: 0.01px 2px 5px #80776e2e;
 }
 
 
 a:hover.knap {
-	color: #d4dbce;
+	color: #3f4a298c;
 }
 
-#section1 p {
+#section1, #section1 p {
 	text-align: center;
+    background-color: white;
 }
 
 h1 {
@@ -57,16 +60,29 @@ h2 {
 }
 
 #section2 {
-	background-color: #faebd7;
+	background-color: #d0d0c0;
 }
 
+#section2 .column img {
+	border-bottom: 20px solid #FCF3E9;
+    margin-bottom: 1rem;
+}
+
+
 #section2 h2 {
-	text-transform: none;
+
 }
 
 #section2 h3 {
-	text-transform: none;
+
 }
+
+#section3 {
+    background-color: #FCF3E9;
+     box-shadow: 5px 5px 10px #3834308f;
+
+}
+
 
 
 
