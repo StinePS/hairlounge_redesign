@@ -5,13 +5,8 @@ img {
 #section_3 {
     background-color: antiquewhite;
 }
-#section_2 {
-    margin-top: 2vw;
-}
-#section_3 h2 {
-    margin-top: 2vw;
-}
-h3 {
+h3,
+h2 {
     margin-bottom: 1vw;
 }
 input {
@@ -48,6 +43,7 @@ button {
     font-weight: 400;
     text-transform: none;
     text-align: left;
+    margin-top: 1vw;
 }
 .text2 p {
     color: #687752;
