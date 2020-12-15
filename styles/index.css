@@ -1,5 +1,9 @@
-#section1 h2 {
+#section1 h1 {
 	font-size: 2rem;
+}
+
+#section1 p {
+	text-align: center;
 }
 
 h2 {
@@ -12,8 +16,6 @@ h2 {
 
 #section2 h2 {
 	text-transform: none;
-	margin: 3rem 0;
-	padding-top: 4rem;
 	font-weight: 500;
 }
 

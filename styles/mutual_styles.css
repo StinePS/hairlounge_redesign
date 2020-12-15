@@ -54,7 +54,8 @@ h1 {
 h2 {
 	font-family: 'Spartan', sans-serif;
 	font-size: 1.3rem;
-	margin: 1rem 0;
+	margin: 3rem 0;
+	padding-top: 4rem;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -63,6 +64,7 @@ h3 {
 	font-family: 'Spartan', sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -224,10 +226,10 @@ a:hover.online_button {
 }
 
 footer h3 {
-    text-align: left;
-    letter-spacing: 0.07rem;
-    line-height: 3rem;
-    font-size: 1rem;
+	text-align: left;
+	letter-spacing: 0.07rem;
+	line-height: 3rem;
+	font-size: 1rem;
 }
 
 #footer li {
