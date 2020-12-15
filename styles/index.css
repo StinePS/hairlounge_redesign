@@ -3,17 +3,31 @@
 	object-fit: cover;
 }
 
-.priser_button {
-	position: relative;
-	left: 38vw;
-	top: -5vw;
-	padding
+
+
+
+
+    .priser_button {
+        margin: 10px;
 }
 
+.video_knapper_position {
+    position: relative;
+    bottom: 8vw;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
 .bestil_button {
-	position: relative;
-	left: 43vw;
-	top: -5vw;
+margin: 10px;
+
 }
 
 a.knap {
@@ -91,4 +105,9 @@ h2 {
 		grid-template-columns: repeat(3, 1fr);
 		column-gap: 2rem;
 	}
+
+
+
+
+
 }
