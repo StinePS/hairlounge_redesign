@@ -8,10 +8,11 @@ img {
 h1 {
     text-align: left;
     margin-top: 1vw;
+    margin-bottom: 0.5vw;
 }
 h3,
 h2 {
-    margin-bottom: 1vw;
+    margin-bottom: 2.3vw;
     margin-top: 1vw;
 }
 input {
