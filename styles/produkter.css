@@ -40,27 +40,35 @@ h2 {
 
 
 #third_section {
-    width: auto;
-    border: 9rem solid #d0d0c0;
+    background-color: #d0d0c0;
+    padding: 5rem 0 5rem 0;
 }
 
 .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    grid-template-columns: 2fr 3fr;
     margin-bottom: 40px;
     background-color: white;
-    box-shadow: 0px 5px 10px grey;
+    box-shadow: 0px 5px 10px #27272714;
+}
+
+.section_wrapper_right {
+  display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #27272714;
 }
 
 #third_section .container {
     background-color: #d0d0c0;
+    max-width: 1000px;
 }
 
 .text {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #fourth_section {
