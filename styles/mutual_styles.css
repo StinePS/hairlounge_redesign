@@ -250,10 +250,6 @@ footer h3 {
 	line-height: 2;
 }
 
-#footer p {
-	line-height: 1.3rem;
-}
-
 #footer a {
 	color: #fff;
 }
@@ -265,6 +261,7 @@ footer h3 {
 #footer p {
 	color: #fff;
 	font-size: 0.8rem;
+	line-height: 1.5rem;
 }
 
 .icon {
