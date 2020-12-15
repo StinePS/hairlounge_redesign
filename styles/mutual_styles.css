@@ -54,7 +54,7 @@ h1 {
 h2 {
 	font-family: 'Spartan', sans-serif;
 	font-size: 1.3rem;
-	margin: 4rem 0;
+	margin: 1rem 0;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -112,7 +112,7 @@ a:active {
 header {
 	position: absolute;
 	z-index: 1;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.9);
 	color: #697654;
 	width: 100%;
 	box-shadow: 5px 0px 10px grey;
@@ -201,6 +201,8 @@ a:hover.online_button {
 
 /* Footer */
 
+
+
 #footer {
 	padding: 5px 0 20px 0;
 	text-align: left;
@@ -221,11 +223,11 @@ a:hover.online_button {
 	font-size: 0.8rem;
 }
 
-#footer h2 {
-	text-align: left;
-	letter-spacing: 0.07rem;
-	line-height: 3rem;
-	font-size: 1rem;
+footer h3 {
+    text-align: left;
+    letter-spacing: 0.07rem;
+    line-height: 3rem;
+    font-size: 1rem;
 }
 
 #footer li {
@@ -244,7 +246,7 @@ a:hover.online_button {
 }
 
 #footer p {
-	line-height: 2;
+	line-height: 1.3rem;
 }
 
 #footer a {
