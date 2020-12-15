@@ -1,3 +1,36 @@
+#video_intro {
+	height: 70vh;
+	object-fit: cover;
+}
+
+.priser_button {
+	position: relative;
+	left: 38vw;
+	top: -5vw;
+	padding
+}
+
+.bestil_button {
+	position: relative;
+	left: 43vw;
+	top: -5vw;
+}
+
+a.knap {
+	color: #697654;
+	font-size: 1.2rem;
+	border-radius: 1.5rem;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: none;
+	cursor: pointer;
+	padding: 1vw 3vw;
+}
+
+
+a:hover.knap {
+	color: #d4dbce;
+}
+
 #section1 p {
 	text-align: center;
 }

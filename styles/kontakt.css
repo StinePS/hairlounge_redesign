@@ -145,7 +145,7 @@ footer li {
     #section_2 .container {
         display: grid;
         grid-template-columns: 1fr 0.7fr;
-        column-gap: 300px;
+        column-gap: 150px;
     }
     .mapouter {
         position: relative;
