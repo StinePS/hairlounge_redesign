@@ -5,6 +5,10 @@ img {
 #section_3 {
     background-color: antiquewhite;
 }
+h1 {
+    text-align: left;
+    margin-top: 1vw;
+}
 h3,
 h2 {
     margin-bottom: 1vw;
