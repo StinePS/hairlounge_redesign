@@ -189,6 +189,9 @@ strong {
 main img {
 	display: block;
 }
+#first_section img {
+   border: 0.5rem solid #fcf3e9;
+}
 
 
 #fourth_section {
