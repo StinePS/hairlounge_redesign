@@ -13,10 +13,9 @@
 
 .video_knapper_position {
     position: relative;
-    bottom: 8vw;
+    bottom: 25vw;
     margin: 0 auto;
-    text-align: center;
-
+  text-align: center;
 
 }
 
@@ -31,12 +30,12 @@ margin: 10px;
 a.knap {
 
     color:#3f4a29;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	border-radius: 1.5rem;
 	background-color:rgb(253 245 235 / 82%);
 	border: none;
 	cursor: pointer;
-	padding: 1vw 3vw;
+	padding: 2vw 4vw;
     box-shadow: 0.01px 2px 5px #80776e2e;
 }
 
@@ -120,7 +119,24 @@ h2 {
 		column-gap: 2rem;
 	}
 
+.video_knapper_position {
+    position: relative;
+    bottom: 8vw;
+    margin: 0 auto;
+  text-align: center;
 
+}
+    a.knap {
+
+    color:#3f4a29;
+	font-size: 1.2rem;
+	border-radius: 1.5rem;
+	background-color:rgb(253 245 235 / 82%);
+	border: none;
+	cursor: pointer;
+	padding: 1vw 3vw;
+    box-shadow: 0.01px 2px 5px #80776e2e;
+}
 
 
 
