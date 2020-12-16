@@ -42,7 +42,7 @@ h2 {
 #third_section {
 	background-color: #d0d0c0;
 	padding: 5rem 0 5rem 0;
-    border-bottom: 20px solid #FCF3E9;
+	border-bottom: 20px solid #FCF3E9;
 
 }
 
@@ -50,7 +50,7 @@ h2 {
 	margin-bottom: 40px;
 	background-color: white;
 	box-shadow: 0px 5px 10px #27272714;
-    border-bottom: 20px solid #FCF3E9;
+	border-bottom: 20px solid #FCF3E9;
 }
 
 
@@ -63,7 +63,7 @@ h2 {
 	padding-top: 40px;
 	padding-left: 25px;
 	padding-right: 25px;
-    padding-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 #fourth_section {
@@ -85,11 +85,12 @@ main img {
 
 #fifth_section {
 	text-align: center;
-    background-color: #FCF3E9;
+	background-color: #FCF3E9;
 }
 
-#fifth_section .container
-{padding: 3rem 1rem 2rem 1rem;}
+#fifth_section .container {
+	padding: 3rem 1rem 2rem 1rem;
+}
 
 #fifth_section p {
 	text-align: center;
@@ -101,15 +102,15 @@ main img {
 #fifth_section input {
 	border: none;
 	background-color: #3f4a29;
-	border-radius: 30px;
-	padding: 15px 30px 15px 30px;
-	font-size: 1rem;
-	color: white;
+	border-radius: 1.5rem;
+	padding: 3vw 5vw;
+	font-size: 1.5rem;
+	color: #fff;
 	box-shadow: 1px 1px 3px #a0a0a0;
 	letter-spacing: 0.1rem;
 	margin: 5px 0 10px 0;
 	font-family: 'Spartan', sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 
@@ -169,27 +170,34 @@ footer li {
 
 @media (min-width: 768px) {
 	.section_wrapper {
-	display: grid;
-	grid-template-columns: 2fr 3fr;
-	margin-bottom: 40px;
-	background-color: white;
-	box-shadow: 0px 5px 10px #27272714;
-}
-    .right {
-        direction: rtl;
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		margin-bottom: 40px;
+		background-color: white;
+		box-shadow: 0px 5px 10px #27272714;
+	}
 
-    }
+	.right {
+		direction: rtl;
 
-    .right h2 {
-        text-align: left;
-    }
+	}
 
-	#section_4 input:hover {
+	.right h2 {
+		text-align: left;
+	}
+
+	#fifth_section input {
+		font-size: 1rem;
+		padding: 1vw 3vw;
+		font-weight: 300;
+	}
+
+	#fifth_section input:hover {
 		opacity: 0.8;
 	}
 
-    .text {
-        padding-bottom: 0;
-    }
+	.text {
+		padding-bottom: 0;
+	}
 
 }
