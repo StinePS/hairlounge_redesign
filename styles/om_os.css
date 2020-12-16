@@ -218,15 +218,15 @@ main img {
 #fourth_section input {
 	border: none;
 	background-color: #3f4a29;
-	border-radius: 30px;
-	padding: 15px 30px 15px 30px;
-	font-size: 1rem;
-	color: white;
+	border-radius: 1.5rem;
+	padding: 3vw 5vw;
+	font-size: 1.5rem;
+	color: #fff;
 	box-shadow: 1px 1px 3px #a0a0a0;
 	letter-spacing: 0.1rem;
 	margin: 5px 0 10px 0;
 	font-family: 'Spartan', sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 /*---- footer ----*/
@@ -322,4 +322,16 @@ footer li {
 		margin: 0 auto;
 		margin-top: 20px;
 	}
+
+	#fourth_section input {
+		font-size: 1rem;
+		padding: 1vw 3vw;
+		font-weight: 300;
+	}
+
+	#fourth_section input:hover {
+		opacity: 0.8;
+	}
+}
+
 }
