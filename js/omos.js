@@ -1,11 +1,6 @@
 //Siden er loadet
 window.addEventListener("load", loadside);
 
-
-let slide = 2;
-
-
-
 function loadside() {
     console.log("side er loadet");
     document.querySelector("#text2").classList.remove("show");
@@ -26,5 +21,5 @@ function rightslide() {
      document.querySelector("#knap_right").classList.add("opacity");
 
     document.querySelector("#text2").classList.add("show");
-    document.querySelector("#knap_left").addEventListener("click", siteLoaded);
+    document.querySelector("#knap_left").addEventListener("click", loadside);
 }
