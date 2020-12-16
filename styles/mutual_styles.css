@@ -11,6 +11,10 @@ html {
 	background-color: #fff;
 }
 
+main {
+	padding-top: 6.5rem;
+}
+
 img {
 	width: 100%;
 	height: auto;
@@ -251,7 +255,7 @@ footer h3 {
 }
 
 #footer .column {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 #footer adress {
@@ -299,13 +303,17 @@ footer h3 {
 }
 
 @media only screen and (min-width: 768px) {
+	main {
+		padding-top: 0;
+	}
+
 	.footer_grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		column-gap: 2rem;
 	}
 
-    #footer .column {
-    margin-bottom: 0rem;
-}
+	#footer .column {
+		margin-bottom: 0rem;
+	}
 }
