@@ -1,12 +1,12 @@
 //Siden er loadet
-window.addEventListener("load", siteLoaded);
+window.addEventListener("load", loadside);
 
 
 let slide = 2;
 
 
 
-function siteLoaded() {
+function loadside() {
     console.log("side er loadet");
     document.querySelector("#text2").classList.remove("show");
     document.querySelector("#text2").classList.add("hide");
