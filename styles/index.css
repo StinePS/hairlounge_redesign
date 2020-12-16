@@ -53,6 +53,9 @@ h2 {
 	background-color: #d0d0c0;
 }
 
+#section2 .column {
+    margin-bottom: 2rem;
+}
 #section2 .column img {
 
 	margin-bottom: 1rem;
@@ -99,6 +102,10 @@ h2 {
 	#section3 h2 {
 		padding: 3rem 0 1rem 0;
 	}
+
+    #section2 .column {
+    margin-bottom: 0;
+}
 
 	.grid-3 {
 		display: grid;
