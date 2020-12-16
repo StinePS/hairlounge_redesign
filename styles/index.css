@@ -3,50 +3,41 @@
 	object-fit: cover;
 }
 
-
-
-
-
-    .priser_button {
-        margin: 10px;
-}
-
 .video_knapper_position {
-    position: relative;
-    bottom: 25vw;
-    margin: 0 auto;
-  text-align: center;
+	position: relative;
+	bottom: 25vw;
+	margin: 0 auto;
+	text-align: center;
 
 }
 
-
-
+.priser_button {
+	margin: 10px;
+}
 
 .bestil_button {
-margin: 10px;
-
+	margin: 10px;
 }
 
 a.knap {
-
-    color:#3f4a29;
+	color: #3f4a29;
 	font-size: 1.5rem;
 	border-radius: 1.5rem;
-	background-color:rgb(253 245 235 / 82%);
+	background-color: rgb(253 245 235 / 82%);
 	border: none;
 	cursor: pointer;
 	padding: 2vw 4vw;
-    box-shadow: 0.01px 2px 5px #80776e2e;
+	box-shadow: 0.01px 2px 5px #80776e2e;
 }
-
 
 a:hover.knap {
 	color: #3f4a298c;
 }
 
-#section1, #section1 p {
+#section1,
+#section1 p {
 	text-align: center;
-    background-color: white;
+	background-color: white;
 }
 
 h1 {
@@ -64,45 +55,38 @@ h2 {
 
 #section2 .column img {
 
-    margin-bottom: 1rem;
-    box-shadow: 2px 1px 10px #63636336;
-    border-bottom: 20px solid #FCF3E9;
+	margin-bottom: 1rem;
+	box-shadow: 2px 1px 10px #63636336;
+	border-bottom: 20px solid #FCF3E9;
 }
 
 
-#section2 h2 {
+#section2 h2 {}
 
-}
-
-#section2 h3 {
-
-}
+#section2 h3 {}
 
 #section3 {
-    background-color: #FCF3E9;
-     box-shadow: 5px 5px 10px #3834308f;
+	background-color: #FCF3E9;
+	box-shadow: 5px 5px 10px #3834308f;
 
 }
-
-
-
 
 #logo_left {
 	height: 2rem;
-    height: auto;
-    overflow: auto;
-    width: 50%;
-    margin: 0 auto
+	height: auto;
+	overflow: auto;
+	width: 50%;
+	margin: 0 auto
 }
 
 #logo_right {
 	height: auto;
-    width:55%;
-    margin: 0 auto;
+	width: 55%;
+	margin: 0 auto;
 }
 
 #logo_kevin {
-    width: 100%;
+	width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -111,9 +95,10 @@ h2 {
 		grid-template-columns: 1fr 1fr;
 		column-gap: 0;
 	}
-    #section3 h2 {
-    padding: 3rem 0 1rem 0;
-}
+
+	#section3 h2 {
+		padding: 3rem 0 1rem 0;
+	}
 
 	.grid-3 {
 		display: grid;
@@ -121,25 +106,21 @@ h2 {
 		column-gap: 2.5rem;
 	}
 
-.video_knapper_position {
-    position: relative;
-    bottom: 10vw;
-    margin: 0 auto;
-  text-align: center;
+	.video_knapper_position {
+		position: relative;
+		bottom: 10vw;
+		margin: 0 auto;
+		text-align: center;
+	}
 
-}
-    a.knap {
-
-    color:#3f4a29;
-	font-size: 1.2rem;
-	border-radius: 1.5rem;
-	background-color:rgb(253 245 235 / 82%);
-	border: none;
-	cursor: pointer;
-	padding: 1vw 3vw;
-    box-shadow: 0.01px 2px 5px #80776e2e;
-}
-
-
-
+	a.knap {
+		color: #3f4a29;
+		font-size: 1.2rem;
+		border-radius: 1.5rem;
+		background-color: rgb(253 245 235 / 82%);
+		border: none;
+		cursor: pointer;
+		padding: 1vw 3vw;
+		box-shadow: 0.01px 2px 5px #80776e2e;
+	}
 }
