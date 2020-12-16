@@ -107,6 +107,8 @@ p {
     height: 300px;
     width: 300px;
 background-color: #6B7754;
+    margin: 0 auto;
+    padding-top: 1rem;
 }
 .gmap_canvas {
     position: relative;
@@ -176,12 +178,15 @@ footer li {
         text-align: right;
         height: 300px;
         width: 450px;
+         margin: 0;
+        padding: 0;
     }
     .gmap_canvas {
         overflow: hidden;
         background: none!important;
         height: 300px;
         width: 450px;
+
     }
     .linje2 {
         border-bottom: 1px solid #cecece;
