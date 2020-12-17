@@ -234,6 +234,6 @@ footer li {
 	#section_3 .container {
 		display: grid;
 		grid-template-columns: 1fr 0.5fr;
-		column-gap: 300px;
+		column-gap: 150px;
 	}
 }
