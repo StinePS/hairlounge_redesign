@@ -243,10 +243,11 @@ footer h3 {
 	font-size: 1rem;
 }
 
-#footer li {
+#footer address {
 	line-height: 1.4rem;
 	font-weight: 100;
 	list-style: none;
+	font-style: normal;
 	padding-left: 0;
 	font-size: 0.8rem;
 	font-weight: 100;
